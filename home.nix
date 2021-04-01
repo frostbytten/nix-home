@@ -51,7 +51,7 @@ eval "$(direnv hook zsh)"
     enable = true;
     settings = {
       font = {
-        family = Iosevka;
+        normal.family = Iosevka;
         size = 13.0;
       };
     };
