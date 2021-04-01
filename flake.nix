@@ -8,15 +8,8 @@
   outputs = { self, nixpkgs }: {
     darwinModules = {
       desktop = {
-        imports = [ { 
-          home = {
-            sessionVariables = {
-              EDITOR = "nvim";
-              VISUAL = "nvim";
-            };
-            stateVersion = "21.03";
-          };
-        }
+        imports = [  
+          ./home.nix
         ];
       };
     };
