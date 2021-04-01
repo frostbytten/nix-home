@@ -51,7 +51,7 @@ eval "$(direnv hook zsh)"
     enable = true;
     settings = {
       font = {
-        normal.family = Iosevka;
+        normal.family = "IBM Plex Mono";
         size = 13.0;
       };
     };
