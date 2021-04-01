@@ -10,8 +10,6 @@
       desktop = {
         imports = [ { 
           home = {
-            username = "frostbytten";
-            homeDirectory = "/Users/frostbytten";
             sessionVariables = {
               EDITOR = "nvim";
               VISUAL = "nvim";
