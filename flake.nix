@@ -9,7 +9,15 @@
     darwinModules = {
       desktop = {
         imports = [ { 
-          home.stateVersion = "21.03";
+          home = {
+            username = "frostbytten";
+            homeDirectory = "/Users/frostbytten";
+            sessionVariables = {
+              EDITOR = "nvim";
+              VISUAL = "nvim";
+            };
+            stateVersion = "21.03";
+          };
         }
         ];
       };
