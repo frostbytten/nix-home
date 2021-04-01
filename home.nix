@@ -49,9 +49,11 @@ eval "$(direnv hook zsh)"
 
   programs.alacritty = {
     enable = true;
-    font = {
-      family = "iosevka";
-      size = 13.0;
+    settings = {
+      font = {
+        family = "iosevka";
+        size = 13.0;
+      };
     };
   };
 
