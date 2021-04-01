@@ -1,0 +1,27 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1617047298,
+        "narHash": "sha256-meBGYnwjY4OpSwmOb+8bwe26Z3kTIP/Nmehs8vM+olI=",
+        "owner": "frostbytten",
+        "repo": "nixpkgs",
+        "rev": "581c7a241dbcebb101f49fc3f122e4fcfc8dbb11",
+        "type": "github"
+      },
+      "original": {
+        "owner": "frostbytten",
+        "ref": "frostbytten-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
