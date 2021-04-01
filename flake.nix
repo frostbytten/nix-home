@@ -8,7 +8,9 @@
   outputs = { self, nixpkgs }: {
     darwinModules = {
       desktop = {
-        imports = [ ./home.nix
+        imports = [ { 
+          home.stateVersion = "21.03";
+        }
         ];
       };
     };
