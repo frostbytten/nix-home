@@ -47,15 +47,12 @@ eval "$(direnv hook zsh)"
     };
   };
 
-  programs.kitty = {
+  programs.alacritty = {
     enable = true;
-    settings = { 
-      font_family = "iosevka";
-      font_size = 15;
+    font = {
+      family = "iosevka";
+      size = 13.0;
     };
-    extraConfig = ''
-      include theme.conf
-    '';
   };
 
   programs.git = {
